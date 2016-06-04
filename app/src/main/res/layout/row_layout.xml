@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="100dp">
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:id="@+id/route_no"
+        android:text="255"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:gravity="center"
+        android:layout_alignParentLeft="true"
+        android:background="#e9ffffff"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+        android:id="@+id/route_from_to"
+        android:text="Mt.Lavnia - Kottawa"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:gravity="center"
+        android:layout_toRightOf="@id/route_no"
+        android:background="#c1fcef61"
+        android:textColor="#010101"
+        android:textStyle="bold" />
+
+</RelativeLayout>
